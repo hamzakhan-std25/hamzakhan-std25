@@ -40,7 +40,7 @@ I’ve completed several front-end projects and am now building **3–4 industry
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hamza-khan-tech)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=vercel&logoColor=white)](https://hamzakhan-std25.github.io/Portfolio-html-css/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hamzakhan.cs25@example.com)
-s
+
 ---
 
 ### 📚 Always Learning
