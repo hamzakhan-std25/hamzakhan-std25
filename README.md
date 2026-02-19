@@ -1,35 +1,46 @@
 # 👋 Hi, I'm Hamza Khan  
 
-A passionate **Front-End Developer** specializing in **React.js + Tailwind CSS**, focused on building **modern, responsive, and user-friendly websites**.  
-Currently expanding into **Full Stack Development** with the MERN stack to deliver end-to-end web solutions.  
+Full Stack **MERN Developer** focused on building production-ready **web applications** with real-time features, **REST APIs,** and **AI integrations.**  
+Skilled in **React.js, Next.js, Node.js, MongoDB, Docker,** and **modern deployment workflows.**
 
 ---
 
+💻 Building scalable, real-time & AI-powered web applications with the MERN stack.
+
+
 ### 🚀 Tech Stack & Tools  
 
-![HTML5](https://img.shields.io/badge/HTML5-e34c26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+**Frontend**  
 ![React](https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61dafb)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-5f0f40?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+**Backend**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 
+**Tools & Deployment**  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
+
 ---
 
 ### 📌 Highlighted Projects  
 
-- 🛍️ **E-Commerce Frontend** – React + Tailwind (product grid, cart UI, responsive design)  
-- 📊 **Admin Dashboard** – React + Tailwind (charts, tables, sidebar navigation)  
-- 🎓 **Student Management System** – MERN Stack full CRUD app (in progress)  
-- 🌐 **Portfolio Website** – Personal site built with React + Tailwind  
+- 🤖 **AI Real-Time Chat Application** – MERN stack app with WebSockets, Firebase authentication, PWA support, and AI API integration (deployed on Vercel + Docker backend).  
 
-👉 More live projects available in my pinned repositories.  
+- 🛒 **Headless E-Commerce (WhatsApp Checkout)** – Next.js frontend with WordPress (WooCommerce + GraphQL) backend for dynamic product management and WhatsApp-based checkout flow.  
+
+- 🚗 **Kia Motors Metropolis Website** – Production WordPress business site with custom UI/UX optimizations and performance improvements.  
+
+- 📡 **Full-Stack Applications (MERN)** – RESTful APIs, authentication systems, and scalable frontend-backend architecture across multiple deployed projects.  
+
+👉 More live deployments available in pinned repositories.
 
 ---
 
@@ -49,5 +60,5 @@ Currently expanding into **Full Stack Development** with the MERN stack to deliv
 ---
 
 ### 📚 Always Learning  
-Currently mastering **MongoDB**, **Express**, and **advanced React patterns** to become a complete **MERN Stack Developer**.  
+Currently expanding my **MERN stack** expertise by integrating **Next.js, REST APIs,** and **real-time features** to deliver high-quality, scalable solutions 
 Open to collaborating on meaningful front-end and full-stack projects.  
