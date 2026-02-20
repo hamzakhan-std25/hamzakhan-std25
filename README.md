@@ -30,6 +30,8 @@ Skilled in **React.js, Next.js, Node.js, MongoDB, Docker,** and **modern deploym
 
 ---
 
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=hamzakhan-std25&theme=github-dark)
+
 ### 📌 Highlighted Projects  
 
 - 🤖 **AI Real-Time Chat Application** – MERN stack app with WebSockets, Firebase authentication, PWA support, and AI API integration (deployed on Vercel + Docker backend).  
@@ -52,12 +54,13 @@ Skilled in **React.js, Next.js, Node.js, MongoDB, Docker,** and **modern deploym
 </picture>
 
 
+<!-- GitHub stats temporarily unavailable due to service maintenance. Check back later! 
 ### 📈 GitHub Stats  
 
 ![Hamza's GitHub stats](https://github-readme-stats.vercel.app/api?username=hamzakhan-std25&show_icons=true&theme=github_dark)  
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hamzakhan-std25&layout=compact&theme=github_dark)  
-
----
+-->
+--- 
 
 ### 🌐 Connect With Me  
 
