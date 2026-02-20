@@ -44,6 +44,14 @@ Skilled in **React.js, Next.js, Node.js, MongoDB, Docker,** and **modern deploym
 
 ---
 
+<!-- Dark theme version -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hamzakhan-std25/hamzakhan-std25/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hamzakhan-std25/hamzakhan-std25/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/hamzakhan-std25/hamzakhan-std25/output/github-contribution-grid-snake.svg">
+</picture>
+
+
 ### 📈 GitHub Stats  
 
 ![Hamza's GitHub stats](https://github-readme-stats.vercel.app/api?username=hamzakhan-std25&show_icons=true&theme=github_dark)  
