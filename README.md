@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Hamza Khan  
 
-Full Stack **MERN Developer** focused on building production-ready **web applications** with real-time features, **REST APIs,** and **AI integrations.**  
+Full Stack ** Developer** focused on building production-ready **web applications** with real-time features, **REST APIs,** and **AI integrations.**  
 Skilled in **React.js, Next.js, Node.js, MongoDB, Docker,** and **modern deployment workflows.**
 
 ---
