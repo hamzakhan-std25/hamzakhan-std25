@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 24" width="100%" role="img">
+<title>Section divider</title>
+<desc>Animated emerald to cyan divider line.</desc>
+<style>
+:root { --bg: #0B0F14; --panel: #111827; --panel-2: #0F172A; --border: #1F2937; --accent-1: #34D399; --accent-2: #22D3EE; --accent-3: #A78BFA; --text: #E5E7EB; --muted: #94A3B8; --warn: #F59E0B; }
+text { font-family: 'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+.sweep { animation: sweep 5s ease-in-out infinite; } @keyframes sweep { from { transform: translateX(-220px); } to { transform: translateX(900px); } }
+</style>
+<defs>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs><rect width="880" height="24" rx="22" fill="#0B0F14" stroke="#1F2937"/><rect x="24" y="11" width="832" height="2" rx="1" fill="#1F2937"/><rect class="sweep" x="0" y="8" width="220" height="8" rx="4" fill="url(#accent)" opacity=".8"/>
+</svg>

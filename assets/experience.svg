@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" role="img">
+<title>Hamza Khan experience timeline</title>
+<desc>Three software development internships shown newest first, with the current role highlighted.</desc>
+<style>
+:root { --bg: #0B0F14; --panel: #111827; --panel-2: #0F172A; --border: #1F2937; --accent-1: #34D399; --accent-2: #22D3EE; --accent-3: #A78BFA; --text: #E5E7EB; --muted: #94A3B8; --warn: #F59E0B; }
+text { font-family: 'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+.timeline { stroke-dasharray: 320; stroke-dashoffset: 320; animation: draw 2.5s ease-out forwards; } .node { animation: nodePulse 4s ease-in-out infinite; } @keyframes draw { to { stroke-dashoffset: 0; } } @keyframes nodePulse { 50% { opacity: .65; } }
+</style>
+<defs>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs><rect width="880" height="360" rx="22" fill="#0B0F14" stroke="#1F2937"/><text x="48" y="42" fill="#94A3B8" font-size="16" class="mono">EXPERIENCE / NEWEST FIRST</text><path class="timeline" d="M64 78 V274" fill="none" stroke="url(#accent)" stroke-width="4"/><rect x="104" y="48" width="724" height="72" rx="16" fill="#111827" stroke="#34D399" opacity=".95"/><circle cx="64" cy="78" r="13" fill="url(#accent)" stroke="#34D399" stroke-width="3"/><text x="104" y="76" fill="#E5E7EB" font-size="24" font-weight="700">Full-Stack Developer Intern</text><text x="104" y="103" fill="#94A3B8" font-size="18">Mehdi Technologies · Islamabad · Aug 2026 – present</text><circle cx="64" cy="176" r="9" fill="#0F172A" stroke="#1F2937" stroke-width="3"/><text x="104" y="174" fill="#E5E7EB" font-size="24" font-weight="700">React Developer Intern</text><text x="104" y="201" fill="#94A3B8" font-size="18">Internee.pk · Remote · Jul 2025 – Sep 2025</text><circle cx="64" cy="274" r="9" fill="#0F172A" stroke="#1F2937" stroke-width="3"/><text x="104" y="272" fill="#E5E7EB" font-size="24" font-weight="700">Web Developer Intern</text><text x="104" y="299" fill="#94A3B8" font-size="18">TechCreator · Swabi · Mar–Jun 2025 and Sep–Dec 2025</text>
+</svg>

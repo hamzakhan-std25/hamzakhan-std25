@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "scripts": {
+    "build:assets": "node scripts/build-assets.mjs",
+    "validate": "node scripts/validate.mjs"
+  }
+}

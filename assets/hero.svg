@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="100%" role="img">
+<title>Hamza Khan, Full-Stack Software Developer</title>
+<desc>Animated profile banner with rotating roles and proof points.</desc>
+<style>
+:root { --bg: #0B0F14; --panel: #111827; --panel-2: #0F172A; --border: #1F2937; --accent-1: #34D399; --accent-2: #22D3EE; --accent-3: #A78BFA; --text: #E5E7EB; --muted: #94A3B8; --warn: #F59E0B; }
+text { font-family: 'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+.role { opacity: 0; animation: roleFade 9s infinite; } .role-2 { animation-delay: 3s; } .role-3 { animation-delay: 6s; } @keyframes roleFade { 0% { opacity: 0; transform: translateY(8px); } 6%, 30% { opacity: 1; transform: none; } 36%, 100% { opacity: 0; } } .orb { animation: drift 8s ease-in-out infinite alternate; } .orb-2 { animation-delay: -3s; } .pill { animation: pulse 4s ease-in-out infinite; transform-origin: center; } @keyframes drift { to { transform: translate(18px, -12px); } } @keyframes pulse { 50% { opacity: .72; } }
+</style>
+<defs>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs><rect width="880" height="320" rx="22" fill="#0B0F14" stroke="#1F2937"/>
+<g opacity=".12" fill="none" stroke="#22D3EE"><path d="M54 28v264"/><path d="M146 28v264"/><path d="M238 28v264"/><path d="M330 28v264"/><path d="M422 28v264"/><path d="M514 28v264"/><path d="M606 28v264"/><path d="M698 28v264"/><path d="M790 28v264"/></g>
+<circle class="orb" cx="760" cy="74" r="56" fill="#22D3EE" opacity=".12" filter="url(#softGlow)"/><circle class="orb orb-2" cx="720" cy="92" r="24" fill="#34D399" opacity=".22"/>
+<text x="54" y="72" fill="#E5E7EB" font-size="58" font-weight="800">Hamza Khan</text>
+<text class="role role-1" x="54" y="116" fill="url(#accent)" font-size="34" font-weight="700">Full-Stack Developer</text><text class="role role-2" x="54" y="116" fill="url(#accent)" font-size="34" font-weight="700">AI Integrator</text><text class="role role-3" x="54" y="116" fill="url(#accent)" font-size="34" font-weight="700">RAG Builder</text>
+<text x="54" y="158" fill="#94A3B8" font-size="20">Production-ready web apps with an AI layer that makes them smarter.</text>
+<g class="pill" transform="translate(54 180)"><rect width="238" height="40" rx="20" fill="#34D399" opacity=".16" stroke="#34D399"/><circle cx="20" cy="20" r="5" fill="#34D399"/><text x="34" y="26" fill="#34D399" font-size="16" font-weight="700">Open to opportunities</text></g>
+<g transform="translate(54 244)"><rect width="248" height="48" rx="16" fill="#111827" stroke="#1F2937"/><circle cx="22" cy="24" r="5" fill="url(#accent)"/><text x="38" y="30" fill="#E5E7EB" font-size="18" font-weight="600">4 Projects</text></g><g transform="translate(316 244)"><rect width="248" height="48" rx="16" fill="#111827" stroke="#1F2937"/><circle cx="22" cy="24" r="5" fill="url(#accent)"/><text x="38" y="30" fill="#E5E7EB" font-size="18" font-weight="600">3 Internships</text></g><g transform="translate(578 244)"><rect width="248" height="48" rx="16" fill="#111827" stroke="#1F2937"/><circle cx="22" cy="24" r="5" fill="url(#accent)"/><text x="38" y="30" fill="#E5E7EB" font-size="18" font-weight="600">BS Computer Science 2026</text></g>
+</svg>

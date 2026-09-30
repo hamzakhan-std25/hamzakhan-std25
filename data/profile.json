@@ -1,0 +1,268 @@
+{
+  "name": "Hamza Khan",
+  "title": "Full-Stack Software Developer",
+  "roles": [
+    "Full-Stack Developer",
+    "AI Integrator",
+    "RAG Builder"
+  ],
+  "location": "Islamabad, Pakistan",
+  "valueProp": "I build fast, production-ready web apps with React, Next.js and Node.js, and I add the AI layer, from semantic search to RAG support bots, that makes them smarter.",
+  "links": {
+    "portfolio": "Khanx_Hamza.dev",
+    "linkedin": "https://www.linkedin.com/in/hamza-khan-tech",
+    "email": "mailto:hamzakhan.cs25@gmail.com",
+    "github": "https://github.com/hamzakhan-std25",
+    "resume": "assets/Hamza_Khan_CV.pdf"
+  },
+  "proofChips": [
+    "4 Projects",
+    "3 Internships",
+    "BS Computer Science 2026"
+  ],
+  "summary": "Full-stack developer who owns features end to end, from schema and API design to interface. Core stack: React, Next.js, TypeScript, Node.js with MongoDB, PostgreSQL and Supabase. Specializes in AI-integrated features: RAG pipelines, semantic search, LLM assistants. Has shipped web apps, real-time systems and eCommerce platforms.",
+  "experience": [
+    {
+      "role": "Full-Stack Developer Intern",
+      "company": "Mehdi Technologies",
+      "location": "Islamabad",
+      "period": "Aug 2026 – present",
+      "highlights": [
+        "Shopify storefronts and apps with React, Node.js, REST APIs",
+        "Built a Shopify quiz app (React, Node.js, REST, Supabase) with automated discount fulfillment",
+        "Real-time Node.js services with WebSockets, Redis, Prisma, Supabase",
+        "Git/GitHub code reviews while extending Shopify through custom apps"
+      ]
+    },
+    {
+      "role": "React Developer Intern",
+      "company": "Internee.pk",
+      "location": "Remote",
+      "period": "Jul 2025 – Sep 2025",
+      "highlights": [
+        "Reusable React/Next.js interfaces and REST integrations",
+        "Code-splitting and lazy loading to cut initial asset delivery",
+        "Responsive UI with Tailwind CSS; Git/GitHub, code reviews, Agile"
+      ]
+    },
+    {
+      "role": "Web Developer Intern",
+      "company": "TechCreator",
+      "location": "Swabi",
+      "period": "Mar–Jun 2025 and Sep–Dec 2025",
+      "highlights": [
+        "WordPress/WooCommerce sites, payment gateways, forms, staging, migrations, launches",
+        "Caching and image optimization; SEO with Yoast"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "BS Computer Science",
+    "institution": "University of Swabi",
+    "location": "Khyber Pakhtunkhwa",
+    "period": "2022–2026",
+    "gpa": "3.45/4.0"
+  },
+  "certifications": [
+    "Google IT Support Professional Certificate",
+    "IBM DevOps & Software Engineering",
+    "Google Project Management Professional Certificate",
+    "HCCDA-AI (in progress)"
+  ],
+  "skillGroups": [
+    {
+      "name": "Frontend",
+      "skills": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Shadcn UI",
+        "Redux Toolkit"
+      ]
+    },
+    {
+      "name": "Backend",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "WebSockets",
+        "GraphQL",
+        "API Integration"
+      ]
+    },
+    {
+      "name": "Data",
+      "skills": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Supabase",
+        "Pinecone",
+        "Prisma",
+        "Redis"
+      ]
+    },
+    {
+      "name": "AI & Vector",
+      "skills": [
+        "RAG",
+        "LLM Integration (Gemini, OpenAI, Groq)",
+        "Semantic Search",
+        "AI Chatbots",
+        "MongoDB Vector Search"
+      ]
+    },
+    {
+      "name": "Auth & Security",
+      "skills": [
+        "JWT",
+        "OAuth 2.0",
+        "Role-Based Access Control"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Docker",
+        "Firebase",
+        "CI/CD",
+        "Vercel",
+        "Jest",
+        "Cypress",
+        "Postman",
+        "Linux"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "taskconnect",
+      "title": "TaskConnect",
+      "tagline": "MERN PWA services marketplace",
+      "status": "live",
+      "statusNote": "Live",
+      "demoUrl": "https://tasker-app-hazel.vercel.app/",
+      "githubUrl": "https://github.com/TaskConnect-Team/Tasker",
+      "metrics": [
+        {
+          "value": "+30%",
+          "label": "match precision"
+        },
+        {
+          "value": "−40%",
+          "label": "discovery latency"
+        },
+        {
+          "value": "−20%",
+          "label": "task abandonment"
+        }
+      ],
+      "stack": [
+        "Node.js",
+        "Express",
+        "React",
+        "Tailwind",
+        "MongoDB",
+        "Stripe",
+        "Firebase FCM",
+        "Google Maps",
+        "Docker",
+        "Jest",
+        "Cypress",
+        "Gemini"
+      ],
+      "highlights": [
+        "MERN PWA services marketplace (final-year project)",
+        "Geospatial matching, JWT + RBAC, Dockerized REST APIs",
+        "Gemini semantic search with MongoDB Vector Search and LLM listing assistant"
+      ]
+    },
+    {
+      "id": "part-plumbing",
+      "title": "Part Plumbing",
+      "tagline": "Headless eCommerce catalog with RAG support",
+      "status": "live",
+      "statusNote": "Live",
+      "demoUrl": "https://parts-plumbing.vercel.app/",
+      "githubUrl": "https://github.com/hamzakhan-std25/Parts-Plumbing",
+      "metrics": [
+        {
+          "value": "+30%",
+          "label": "automated inquiry resolution"
+        }
+      ],
+      "stack": [
+        "Next.js",
+        "React",
+        "Tailwind",
+        "Framer Motion",
+        "GraphQL",
+        "Supabase",
+        "Pinecone",
+        "Gemini",
+        "Groq"
+      ],
+      "highlights": [
+        "Next.js + WordPress/WooCommerce via GraphQL with ISR",
+        "RAG support assistant with Gemini embeddings, Pinecone top-5 and Groq generation",
+        "Supabase chat logs and feedback, debounced filtering, WhatsApp inquiry flows",
+        "Vitest and Playwright tests"
+      ]
+    },
+    {
+      "id": "ai-chat",
+      "title": "AI Real-Time Chat",
+      "tagline": "React PWA with streamed Gemini responses",
+      "status": "live",
+      "statusNote": "Live",
+      "demoUrl": "https://chat-bot-beige-chi.vercel.app/",
+      "githubUrl": "https://github.com/hamzakhan-std25/chat-interface-react-tailwind",
+      "metrics": [],
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind",
+        "Node/Express",
+        "WebSocket",
+        "Gemini",
+        "Firebase Auth",
+        "Supabase",
+        "Docker"
+      ],
+      "highlights": [
+        "React + Vite PWA with Node/Express WebSocket backend",
+        "Streamed Gemini responses with cancel and voice messages",
+        "Firebase auth, Supabase sessions, offline fallback page and Docker",
+        "RAG is planned, not built"
+      ]
+    },
+    {
+      "id": "profileiq",
+      "title": "ProfileIQ",
+      "tagline": "AI-powered TikTok analytics platform",
+      "status": "in-development",
+      "statusNote": "In development (front end live)",
+      "demoUrl": "https://profileiq.dev",
+      "githubUrl": "",
+      "metrics": [],
+      "stack": [
+        "Next.js",
+        "TypeScript",
+        "Tailwind 4",
+        "Radix UI",
+        "GitHub Actions"
+      ],
+      "highlights": [
+        "Front end live at profileiq.dev",
+        "Contact route handler and GitHub Actions CI with lint, type-check, Vitest, build",
+        "TikTok connection and AI insights are in development"
+      ]
+    }
+  ]
+}
