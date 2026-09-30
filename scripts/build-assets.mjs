@@ -74,12 +74,50 @@ function skills() {
   return document({ width: 880, height: 340, title: 'Hamza Khan skill ecosystem', description: 'Connected clusters for frontend, backend, data, AI and vector, auth and security, and DevOps and cloud skills.', body, styles });
 }
 
+function pipeline() {
+  const stages = [
+    ['Query', 'user intent'],
+    ['Embed', 'Gemini / OpenAI'],
+    ['Vector Search', 'Pinecone / MongoDB'],
+    ['LLM', 'Gemini / Groq'],
+    ['Response', 'grounded answer']
+  ];
+  const nodes = stages.map(([label, detail], index) => {
+    const x = 84 + index * 178;
+    return `<g><circle cx="${x}" cy="100" r="30" fill="${index === 3 ? colors.accent3 : colors.panel}" fill-opacity=".25" stroke="${index === 3 ? colors.accent3 : colors.accent1}" stroke-width="2"/><text x="${x}" y="96" text-anchor="middle" fill="${colors.text}" font-size="16" font-weight="700">${escapeXml(label)}</text><text x="${x}" y="150" text-anchor="middle" fill="${colors.muted}" font-size="13">${escapeXml(detail)}</text></g>`;
+  }).join('');
+  const styles = `.packet { animation: travel 6s linear infinite; } @keyframes travel { from { offset-distance: 0%; } to { offset-distance: 100%; } }`;
+  const body = `${gradientDefinitions()}${roundedBackground(880, 200)}<path id="flow" d="M84 100 H796" fill="none" stroke="${colors.border}" stroke-width="3"/><circle class="packet" r="7" fill="${colors.accent1}"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#flow"/></animateMotion></circle>${nodes}`;
+  return document({ width: 880, height: 200, title: 'AI feature pipeline', description: 'Query, embedding, vector search, language model, and grounded response pipeline.', body, styles });
+}
+
+function projectCard(project) {
+  const metrics = project.metrics.slice(0, 3).map((metric, index) => `<g transform="translate(${18 + index * 132} 158)"><rect width="120" height="48" rx="12" fill="${colors.panel2}" stroke="${colors.border}"/><text x="60" y="21" text-anchor="middle" fill="${colors.accent1}" font-size="18" font-weight="800">${escapeXml(metric.value)}</text><text x="60" y="37" text-anchor="middle" fill="${colors.muted}" font-size="10">${escapeXml(metric.label)}</text></g>`).join('');
+  const feature = project.metrics.length ? metrics : `<g transform="translate(18 158)"><rect width="394" height="48" rx="12" fill="${colors.panel2}" stroke="${colors.border}"/><text x="197" y="29" text-anchor="middle" fill="${colors.accent2}" font-size="16" font-weight="700">Streaming · Voice · PWA</text></g>`;
+  const statusColor = project.status === 'in-development' ? colors.warn : colors.accent1;
+  const styles = `.scan { animation: scan 5s ease-in-out infinite; } @keyframes scan { 50% { opacity: .25; } }`;
+  const body = `${gradientDefinitions()}${roundedBackground(430, 250)}<circle class="scan" cx="368" cy="48" r="38" fill="none" stroke="${statusColor}" stroke-width="2" opacity=".35"/><circle cx="32" cy="28" r="5" fill="${statusColor}"/><text x="46" y="34" fill="${statusColor}" font-size="14" font-weight="700">${escapeXml(project.statusNote)}</text><text x="18" y="86" fill="${colors.text}" font-size="30" font-weight="800">${escapeXml(project.title)}</text><text x="18" y="116" fill="${colors.muted}" font-size="15">${escapeXml(project.tagline)}</text>${feature}<text x="18" y="232" fill="${colors.muted}" font-size="12" class="mono">${escapeXml(project.stack.slice(0, 5).join(' · '))}</text>`;
+  return document({ width: 430, height: 250, title: project.title, description: `${project.title}: ${project.tagline}.`, body, styles });
+}
+
+function socialCard(label, kind, accent) {
+  const icon = kind === 'email' ? '@' : kind === 'github' ? '</>' : kind === 'linkedin' ? 'in' : '↗';
+  const body = `${roundedBackground(210, 72)}<circle cx="32" cy="36" r="18" fill="${accent}" fill-opacity=".18" stroke="${accent}"/><text x="32" y="43" text-anchor="middle" fill="${accent}" font-size="16" font-weight="800">${escapeXml(icon)}</text><text x="62" y="42" fill="${colors.text}" font-size="18" font-weight="700">${escapeXml(label)}</text>`;
+  return document({ width: 210, height: 72, title: `${label} link`, description: `Link to Hamza Khan's ${label}.`, body });
+}
+
 const outputs = new Map([
   ['assets/hero.svg', hero()],
   ['assets/divider.svg', divider()],
   ['assets/cta.svg', cta()],
   ['assets/experience.svg', experience()],
-  ['assets/skills.svg', skills()]
+  ['assets/skills.svg', skills()],
+  ['assets/pipeline.svg', pipeline()],
+  ...profile.projects.map((project) => [`assets/projects/${project.id}.svg`, projectCard(project)]),
+  ['assets/socials/linkedin.svg', socialCard('LinkedIn', 'linkedin', colors.accent2)],
+  ['assets/socials/github.svg', socialCard('GitHub', 'github', colors.text)],
+  ['assets/socials/email.svg', socialCard('Email', 'email', colors.accent1)],
+  ['assets/socials/portfolio.svg', socialCard('Portfolio', 'portfolio', colors.accent3)]
 ]);
 
 for (const [relativePath, content] of outputs) {

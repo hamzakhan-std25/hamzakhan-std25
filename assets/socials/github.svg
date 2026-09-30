@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 72" width="100%" role="img">
+<title>GitHub link</title>
+<desc>Link to Hamza Khan&apos;s GitHub.</desc>
+<style>
+:root { --bg: #0B0F14; --panel: #111827; --panel-2: #0F172A; --border: #1F2937; --accent-1: #34D399; --accent-2: #22D3EE; --accent-3: #A78BFA; --text: #E5E7EB; --muted: #94A3B8; --warn: #F59E0B; }
+text { font-family: 'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+
+</style>
+<rect width="210" height="72" rx="22" fill="#0B0F14" stroke="#1F2937"/><circle cx="32" cy="36" r="18" fill="#E5E7EB" fill-opacity=".18" stroke="#E5E7EB"/><text x="32" y="43" text-anchor="middle" fill="#E5E7EB" font-size="16" font-weight="800">&lt;/&gt;</text><text x="62" y="42" fill="#E5E7EB" font-size="18" font-weight="700">GitHub</text>
+</svg>

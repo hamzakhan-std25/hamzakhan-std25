@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 250" width="100%" role="img">
+<title>TaskConnect</title>
+<desc>TaskConnect: MERN PWA services marketplace.</desc>
+<style>
+:root { --bg: #0B0F14; --panel: #111827; --panel-2: #0F172A; --border: #1F2937; --accent-1: #34D399; --accent-2: #22D3EE; --accent-3: #A78BFA; --text: #E5E7EB; --muted: #94A3B8; --warn: #F59E0B; }
+text { font-family: 'Segoe UI', Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+.mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }
+.scan { animation: scan 5s ease-in-out infinite; } @keyframes scan { 50% { opacity: .25; } }
+</style>
+<defs>
+  <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#34D399"/><stop offset="100%" stop-color="#22D3EE"/></linearGradient>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="12"/></filter>
+</defs><rect width="430" height="250" rx="22" fill="#0B0F14" stroke="#1F2937"/><circle class="scan" cx="368" cy="48" r="38" fill="none" stroke="#34D399" stroke-width="2" opacity=".35"/><circle cx="32" cy="28" r="5" fill="#34D399"/><text x="46" y="34" fill="#34D399" font-size="14" font-weight="700">Live</text><text x="18" y="86" fill="#E5E7EB" font-size="30" font-weight="800">TaskConnect</text><text x="18" y="116" fill="#94A3B8" font-size="15">MERN PWA services marketplace</text><g transform="translate(18 158)"><rect width="120" height="48" rx="12" fill="#0F172A" stroke="#1F2937"/><text x="60" y="21" text-anchor="middle" fill="#34D399" font-size="18" font-weight="800">+30%</text><text x="60" y="37" text-anchor="middle" fill="#94A3B8" font-size="10">match precision</text></g><g transform="translate(150 158)"><rect width="120" height="48" rx="12" fill="#0F172A" stroke="#1F2937"/><text x="60" y="21" text-anchor="middle" fill="#34D399" font-size="18" font-weight="800">−40%</text><text x="60" y="37" text-anchor="middle" fill="#94A3B8" font-size="10">discovery latency</text></g><g transform="translate(282 158)"><rect width="120" height="48" rx="12" fill="#0F172A" stroke="#1F2937"/><text x="60" y="21" text-anchor="middle" fill="#34D399" font-size="18" font-weight="800">−20%</text><text x="60" y="37" text-anchor="middle" fill="#94A3B8" font-size="10">task abandonment</text></g><text x="18" y="232" fill="#94A3B8" font-size="12" class="mono">Node.js · Express · React · Tailwind · MongoDB</text>
+</svg>

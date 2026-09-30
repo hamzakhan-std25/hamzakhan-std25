@@ -6,6 +6,15 @@
 
 [**Portfolio**](https://Khanx_Hamza.dev) · [**LinkedIn**](https://www.linkedin.com/in/hamza-khan-tech) · [**Email**](mailto:hamzakhan.cs25@gmail.com?subject=Hello%20Hamza) · [**Resume (PDF)**](assets/Hamza_Khan_CV.pdf)
 
+<table>
+<tr>
+<td><a href="https://www.linkedin.com/in/hamza-khan-tech"><img src="assets/socials/linkedin.svg" alt="LinkedIn" width="100%"></a></td>
+<td><a href="https://github.com/hamzakhan-std25"><img src="assets/socials/github.svg" alt="GitHub" width="100%"></a></td>
+<td><a href="mailto:hamzakhan.cs25@gmail.com?subject=Hello%20Hamza"><img src="assets/socials/email.svg" alt="Email Hamza Khan" width="100%"></a></td>
+<td><a href="https://Khanx_Hamza.dev"><img src="assets/socials/portfolio.svg" alt="Portfolio" width="100%"></a></td>
+</tr>
+</table>
+
 <sub>[About](#about) · [AI pipeline](#how-i-build-ai-features) · [Projects](#featured-projects) · [Experience](#experience) · [Skills](#skill-ecosystem) · [Activity](#github-activity) · [Contact](#lets-talk)</sub>
 
 </div>
